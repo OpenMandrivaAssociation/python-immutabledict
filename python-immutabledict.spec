@@ -7,6 +7,7 @@ URL:		https://pypi.org/project/immutabledict/
 License:	MIT
 Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(poetry)
 BuildArch:	noarch
 
 %description
