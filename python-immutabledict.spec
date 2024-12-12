@@ -1,5 +1,5 @@
 Name:		python-immutabledict
-Version:	4.2.0
+Version:	4.2.1
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/i/immutabledict/immutabledict-%{version}.tar.gz
 Summary:	Immutable wrapper around dictionaries (a fork of frozendict)
