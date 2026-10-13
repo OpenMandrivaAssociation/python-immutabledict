@@ -3,7 +3,7 @@
 
 Name:		python-immutabledict
 Version:	4.3.1
-Release:	1
+Release:	2
 Summary:	Immutable wrapper around dictionaries (a fork of frozendict)
 License:	MIT
 Group:		Development/Python
