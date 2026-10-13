@@ -3,7 +3,7 @@
 
 Name:		python-immutabledict
 Version:	4.3.1
-Release:	2
+Release:	3
 Summary:	Immutable wrapper around dictionaries (a fork of frozendict)
 License:	MIT
 Group:		Development/Python
@@ -26,7 +26,9 @@ Immutable wrapper around dictionaries (a fork of frozendict)
 %check
 export CI=true
 export PYTHONPATH="%{buildroot}%{python_sitelib}:${PWD}"
-pytest
+# test_performance compares wall time with a builtin dict and fails when
+# the builder is busy.
+pytest -k 'not test_performance'
 %endif
 
 %files
